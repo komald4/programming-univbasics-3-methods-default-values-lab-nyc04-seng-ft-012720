@@ -1,11 +1,6 @@
 # Your code here
 # For output purposes, use "puts" instead of "print" or "p"
-describe '#meal_choice' do
-  it 'should default to meat' do
-    expect(meal_choice).to eq("meat")
-  end
-
-  it 'should allow you to set a meal' do
-    expect(meal_choice("vegan")).to eq("vegan")
-  end
+def meal_choice(veg1, veg2, protein = 'meat')
+  puts "What a nutritious meal!"
 end
+meal_choice
